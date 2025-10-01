@@ -32,7 +32,7 @@ export function Hero() {
             <div className="flex flex-col gap-2 text-muted-foreground pt-2 items-center">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>Kab. Nganjuk, Jawa Timur, 64315</span>
+                <span>Kec. Kertosono, Kab. Nganjuk, Jawa Timur, 64315</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
