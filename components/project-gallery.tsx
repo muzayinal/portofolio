@@ -64,7 +64,7 @@ export function ProjectGallery() {
             {projectImages.map((project, index) => (
                 <div
                 key={index}
-                className={`group relative overflow-hidden rounded-lg border bg-card  transition-all hover:shadow-lg hover:scale-[1.02]${project.link ? "cursor-pointer" : ""}`}
+                className={`group relative overflow-hidden rounded-lg border bg-card  transition-all hover:shadow-lg hover:scale-[1.02]${project.link ? " cursor-pointer" : ""}`}
                 onClick={project.link !== null ? () => handleClick(project.link) : undefined}
                 >
                 <div className="aspect-video relative overflow-hidden">
