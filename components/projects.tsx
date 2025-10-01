@@ -68,14 +68,11 @@ export function Projects() {
       "/digifile/img-1.png",
       "/digifile/img-2.png",
       "/digifile/img-3.png",
-    ],
-    "Online Bus Booking System": [
-      "/bus/img-1.png",
-      "/bus/img-2.png",
-    ],
-    "Pajak Mudah": [
-      "/pajak/img-1.png",
-    ],
+      "/digifile/img-4.png",
+      "/digifile/img-5.png",
+      "/digifile/img-6.png",
+      "/digifile/img-7.png"
+    ]
   }
 
   const handleOpen = (title: string) => {
