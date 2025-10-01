@@ -41,10 +41,10 @@ export function Contact() {
             </CardHeader>
             <CardContent>
               <a
-                href="mailto:muzayin@example.com"
+                href="mailto:muzayinalfarosa@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                muzayin@example.com
+                muzayinalfarosa@gmail.com
               </a>
             </CardContent>
           </Card>
@@ -57,8 +57,8 @@ export function Contact() {
               <CardTitle className="text-lg">Phone</CardTitle>
             </CardHeader>
             <CardContent>
-              <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                +1 (234) 567-890
+              <a href="tel:+6285745468769" className="text-muted-foreground hover:text-primary transition-colors">
+                +62 857-4546-8769
               </a>
             </CardContent>
           </Card>
@@ -75,53 +75,6 @@ export function Contact() {
             </CardContent>
           </Card>
         </div>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Send a Message</CardTitle>
-            <CardDescription>Fill out the form below and I'll get back to you as soon as possible.</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="space-y-2">
-                <Label htmlFor="name">Name</Label>
-                <Input
-                  id="name"
-                  placeholder="Your name"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  required
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="your.email@example.com"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  required
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
-                <Textarea
-                  id="message"
-                  placeholder="Tell me about your project..."
-                  rows={5}
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  required
-                />
-              </div>
-              <Button type="submit" size="lg" className="w-full">
-                Send Message
-              </Button>
-            </form>
-          </CardContent>
-        </Card>
-
         <footer className="mt-20 pt-8 border-t border-border text-center text-muted-foreground">
           <p>© 2025 Muzayin Al Farosa. Built with Next.js and Tailwind CSS.</p>
         </footer>
